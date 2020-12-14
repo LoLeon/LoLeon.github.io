@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
+    <link rel="manifest" href="media/favicon/site.webmanifest">
+    <meta name="keywords" content="Léon Loncaric, Iut Informatique Aix en Provence">
+    <meta name="Auteur" content="Loncaric Léon">
+    <meta name="Description" content="Page d'accueil du Projet de Loncaric Léon.">
+    </head>
+<body>
+    <header>
+        <h1 class="NomPrénom">Loncaric Léon</h1>
+    </header>
+    <nav>
+        <div class="Menu">
+            <a class="LienMenu" href="Présentation.html" title="Page de Présentation">Présentation</a>
+            <a class="LienMenu" href="Travaux.html" title="Page de Travaux">Travaux</a>
+            <a class="LienMenu" href="Avis.html" title="Page où donner son avis">Avis</a>
+        </div>
+    </nav>
+    <section>
+        <p id="F1">Vous pouvez ici m'envoyez un commentaire sur mon site ou tout autre message.</p>
+        <form action="mailto:leon.loncaric@etu.univ-amu.fr" method="post">
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+           </div>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>
+    </section>    
+    <footer>
+        <button onclick="topFunction()" id="ToTop" title="Go to top"><img src="media/navigate-up-arrows.png" alt="Top"></button>
+    </footer>
+</body>
