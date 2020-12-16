@@ -204,22 +204,22 @@
       font-family: "Verdana", sans serif;
     }  
   body{
-    background-color: #f1faee;
+      background-color: #f1faee;
     }
   section{
-    min-height: 80vh;
+      min-height: 80vh;
     }
   footer{
-    background-color: #1d3557;
-    height:10vh;
-    width: auto;
-    border: 1px black;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px ;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+      background-color: #1d3557;
+      height:10vh;
+      width: auto;
+      border: 1px black;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px ;
+      margin: 0;
+      display: flex;
+      justify-content: center;
     }
   .Menu{
       display: flex;
@@ -250,14 +250,14 @@
       text-decoration: underline;
     }
   .Par{
-    font-size: 1.2em;
-    font-family: "Verdana", sans serif;
+      font-size: 1.2em;
+      font-family: "Verdana", sans serif;
     } 
   .Link{
-    text-decoration: none;
-    color: blue;
-    font-size: 1.2em;
-    font-family: "Verdana", sans serif;
+      text-decoration: none;
+      color: blue;
+      font-size: 1.2em;
+      font-family: "Verdana", sans serif;
     }
   .LinkLinkedin:hover{
       text-decoration:underline;
@@ -276,86 +276,86 @@
     }
       
   #ToTop:hover {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
     }
   #ToTop:hover {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
     }
   form {
-    margin: 0 auto;
-    width: 20%;
-    padding: 3%;
-    padding-top: 3%;
-    border: 1px solid black;
-    border-radius: 1em;
-    position: relative;
-    height:20em;
-    background-color: #e63946;
-    font-size: 1.2em;
-    font-family: "Verdana", sans serif;
+      margin: 0 auto;
+      width: 20%;
+      padding: 3%;
+      padding-top: 3%;
+      border: 1px solid black;
+      border-radius: 1em;
+      position: relative;
+      height:20em;
+      background-color: #e63946;
+      font-size: 1.2em;
+      font-family: "Verdana", sans serif;
     }      
   label {
-    display: inline-block;
-    width: 100px;
-    text-align: left;
+      display: inline-block;
+      width: 100px;
+      text-align: left;
     }    
   input, textarea {
-    font-family: "Verdana", sans serif;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #999;
+      font-family: "Verdana", sans serif;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #999;
     }    
   input:focus, textarea:focus {
     border-color: #000;
     }    
   textarea {
-    vertical-align: top;
-    height: 10em;
+      vertical-align: top;
+      height: 10em;
     }      
   #F1{
-    font-size: 1.2em;
-    font-family: "Verdana", sans serif;
-    position: relative;
-    left:13%;
+      font-size: 1.2em;
+      font-family: "Verdana", sans serif;
+      position: relative;
+      left:13%;
     }
   #f2{
-    color:#f1faee;
-    font-family: "Verdana", sans serif;
+      color:#f1faee;
+      font-family: "Verdana", sans serif;
     }
   #style1{
-    position: fixed; 
-    bottom: 3%; 
-    right: 18%; 
-    z-index: 99; 
-    border: 1px solid black; 
-    outline: none; 
-    background-color:#f1faee;
-    cursor: pointer;
-    padding: 0.7%;
-     border-radius: 10px; 
-     font-family: "Verdana", sans serif;
+      position: fixed; 
+      bottom: 3%; 
+      right: 18%; 
+      z-index: 99; 
+      border: 1px solid black; 
+      outline: none; 
+      background-color:#f1faee;
+      cursor: pointer;
+      padding: 0.7%;
+      border-radius: 10px; 
+      font-family: "Verdana", sans serif;
     }
   #style1:hover {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
     }
   #style2{
-    position: fixed; 
-    bottom: 3%; 
-    right: 8%; 
-    z-index: 99; 
-    border:1px solid black; 
-    outline: none; 
-    background-color:#f1faee;
-    cursor: pointer;
-    padding: 0.7%;
-    border-radius: 10px; 
-    font-family: "Verdana", sans serif;
+      position: fixed; 
+      bottom: 3%; 
+      right: 8%; 
+      z-index: 99; 
+      border:1px solid black; 
+      outline: none; 
+      background-color:#f1faee;
+      cursor: pointer;
+      padding: 0.7%;
+      border-radius: 10px; 
+      font-family: "Verdana", sans serif;
     }
   #style2:hover {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
     }
   }
