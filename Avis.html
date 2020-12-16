@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Avis</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" title="style1" href="styles.css">
+    <link rel="second stylesheet" type="text/css" title="style2" href="style2.css">
     <script type="text/javascript" src="script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
@@ -27,24 +28,19 @@
     <section>
         <p id="F1">Vous pouvez ici m'envoyez un commentaire sur mon site ou tout autre message.</p>
         <form action="mailto:leon.loncaric@etu.univ-amu.fr" method="post">
-            <div>
                 <label for="name">Nom :</label>
                 <input type="text" id="name" name="user_name">
-            </div>
-            <div>
                 <label for="mail">E-mail :</label>
                 <input type="email" id="mail" name="user_mail">
-            </div>
-            <div>
                 <label for="msg">Message :</label>
                 <textarea id="msg" name="user_message"></textarea>
-           </div>
-            <div class="button">
-                <button type="submit">Envoyer le message</button>
-            </div>
+                <button id="buttonform" type="submit">Envoyer le message</button>
         </form>
     </section>    
     <footer>
-        <button onclick="topFunction()" id="ToTop" title="Go to top"><img src="media/navigate-up-arrows.png" alt="Top"></button>
+        <h3 id="f2">Site crée par Loncaric Léon</h3>
     </footer>
+    <button type="button" onclick="switch_style('style1'); return false;"name="theme" value="Style 1" id="style1">Style 1</button>
+    <button type="button" onclick="switch_style('style2'); return false;"name="theme" value="Style 2" id="style2">Style 2</button>
+    <button onclick="topFunction()" id="ToTop" title="Go to top"><img src="media/navigate-up-arrows.png" alt="Top"></button>
 </body>

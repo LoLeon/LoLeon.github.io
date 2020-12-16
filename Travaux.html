@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Travaux</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" title="style1" href="styles.css">
+    <link rel="second stylesheet" type="text/css" title="style2" href="style2.css">
     <script type="text/javascript" src="script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
@@ -29,10 +30,13 @@
         <p class="Par">Version Française <a class="Link" href="media/download/CV Loncaric Léon FR.docx" title="Télecharger la version française" download>Ici</a></p>
         <p class="Par">English Version <a class="Link" href="" title="Download the english version" download>Here</a></p>
         <h1 class="Titre">Travaux</h1>
-        <p class="Par">2020: Projet Conception de documents et d'interfaces numériques, conception d'un site Internet. <a class="Link" href="" title="Télecharger Project.zip" download>Ici</a></p>
+        <p class="Par">2020: Projet Conception de documents et d'interfaces numériques, conception d'un site Internet. <a class="Link" href="https://loleon.github.io/" title="Lien vers le site">Ici</a></p>
         <p class="Par">2020: Conception d'un site internet, Présentation de patisserie à la vente <a class="Link" href="" title="Pas encore disponible" target="_blank">(En cours)</a></p>
     </section>    
     <footer>
-        <button onclick="topFunction()" id="ToTop" title="Go to top"><img src="media/navigate-up-arrows.png" alt="Top"></button>
+        <h3 id="f2">Site crée par Loncaric Léon</h3>
     </footer>
+    <button type="button" onclick="switch_style('style1'); return false;"name="theme" value="Style 1" id="style1">Style 1</button>
+    <button type="button" onclick="switch_style('style2'); return false;"name="theme" value="Style 2" id="style2">Style 2</button>
+    <button onclick="topFunction()" id="ToTop" title="Go to top"><img src="media/navigate-up-arrows.png" alt="Top"></button>
 </body>
