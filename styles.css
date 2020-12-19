@@ -1,10 +1,8 @@
 @media (min-width:1350px){
   header{
       background-color:#1d3557 ;
-      width: auto;
+      width: 100%;
       height: 20vh;
-      padding:0;
-      margin:0;
       border: 1px black;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
@@ -14,22 +12,25 @@
   }
   .NomPrénom{
     color:#f1faee;
-    font-size: 2em;
+    font-size: 200%;
     font-family: "Verdana",sans serif;
 }  
   body{
       background-color: #f1faee;
       min-height: 100%;
   }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
   footer{
       background-color: #1d3557;
       height:10vh;
-      width: auto;
+      width: 100%;
       border: 1px black;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 10px ;
-      margin: 0;
       display: flex;
       justify-content: center;
   }
@@ -45,11 +46,12 @@
       -webkit-border-radius: 10px;
       border-radius: 10px ;
       margin-top: 1%;;
+      margin-bottom: 1%;
   }
   .LienMenu{
       color:#f1faee;
       text-decoration: none;
-      font-size: 1.5em;
+      font-size: 150%;
       font-family: "Verdana", sans serif;
       text-align: center;   
   }
@@ -59,15 +61,16 @@
   .Titre{
       font-family: "Verdana", sans serif;
       text-decoration: underline;
+      margin: 5%;
   }
   .Par{
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
   }
   .Link{
       text-decoration: none;
       color: blue;
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
   }
   .Link:hover{
@@ -75,10 +78,10 @@
   }
   section{
       position: relative;
-      top:-30em;
+      top:-40em;
       left:24%;
-      height:0;
-      width: 67.5%;
+      height: 0;
+      width: 68%;
   }
   #ToTop {
       border: 1px solid black;
@@ -98,12 +101,9 @@
       padding: 3%;
       border: 1px solid black;
       border-radius: 1em;
-      position: relative;
-      top: -4em;
-      left:-18%;
       height:20em;
       background-color: #e63946;
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
     }
     label {
@@ -131,15 +131,16 @@
       border-radius: 10px;
     }
     #F1{
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
-      position: relative;  
-      top: -5em;
-      left:13%;
+      margin-left: 20%;
+      margin-top: 5%;
+      margin-bottom: 5%;
     }
     #f2{
       color:#f1faee;
       font-family: "Verdana", sans serif;
+      margin-top: 5%;
     }
     #style1{
       border: 1px solid black; 
@@ -180,10 +181,8 @@
 @media (max-width:1350px){
   header{
       background-color:#1d3557 ;
-      width: auto;
+      width: 100%;
       height: 15vh;
-      padding:0;
-      margin:0;
       border: 1px black;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
@@ -194,24 +193,24 @@
       margin-top: 10px; 
       display:flex;
       justify-content: center;
-      font-size: 2em;
+      font-size: 200%;
       font-family: "Verdana", sans serif;
     }  
   body{
       background-color: #f1faee;
     }
-  section{
-      min-height: 80vh;
+    .container{
+      display: flex;
+      flex-direction: column;
     }
   footer{
       background-color: #1d3557;
       height:10vh;
-      width: auto;
+      width: 100%;
       border: 1px black;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 10px ;
-      margin: 0;
       display: flex;
       justify-content: center;
     }
@@ -227,12 +226,12 @@
       -webkit-border-radius: 10px;
       border-radius: 10px ;
       margin-top: 1%;
-      min-height: 7vh;
+      margin-bottom: 1%;
     }
   .LienMenu{
       color:#f1faee;
       text-decoration: none;
-      font-size: 1.5em;
+      font-size: 150%;
       font-family: "Verdana", sans serif;
       vertical-align: center;   
     }
@@ -244,13 +243,13 @@
       text-decoration: underline;
     }
   .Par{
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
     } 
   .Link{
       text-decoration: none;
       color: blue;
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
     }
   .LinkLinkedin:hover{
@@ -276,7 +275,7 @@
       border-radius: 1em;
       height:20em;
       background-color: #e63946;
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
     }      
   label {
@@ -303,7 +302,7 @@
     border-radius: 10px;
     }        
   #F1{
-      font-size: 1.2em;
+      font-size: 120%;
       font-family: "Verdana", sans serif;
       position: relative;
       left:13%;
