@@ -1,0 +1,168 @@
+body{
+    background-color: white;
+    min-height: 100%;
+}
+header{
+    background-color:#226ce0;
+}
+.Flex{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: #534b62;
+}
+section{
+    margin-bottom: 3%;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #F96E46;
+    margin-top: 5%;
+}
+.NomPrénom{
+    font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color: white;
+    font-size: 400%;
+    margin-left: 2%;
+}
+.Par{
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif; ;
+    color:black;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+.LienMenu{
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color:white;
+    font-size: 300%;
+    text-decoration: none;
+}
+.LienMenu:hover{
+    text-decoration: underline overline ;
+}
+.Titre{
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color:black;
+    font-size: 225%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-style: oblique;
+}
+.Link{
+    text-decoration: none;
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color:#F96E46;
+    font-size: 100%;
+}
+.Link:hover{
+    text-decoration: underline;
+}
+#f2{
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    color:black;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 15vw;
+    position: fixed;
+    bottom:3%;
+    right: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+#style1{
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 115%;
+    color:white;
+    background-color: #226ce0;
+    border: none;
+    padding: 4%;
+    cursor:pointer;
+}
+#style1:hover {
+    background-color: #3B7BE3;
+  }
+#style2{
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 115%;
+    color:white;
+    background-color: #226ce0;
+    border: none;
+    padding: 4%;   
+    cursor:pointer;
+}
+#style2:hover{
+    background-color: #3B7BE3;
+}
+#ToTop{
+    background-color: #226ce0;
+    border: none;
+    padding: 4%; 
+    cursor:pointer;
+}
+#ToTop:hover{
+    background-color: #3B7BE3;
+}
+form {
+    margin: 0 auto;
+    width: 40%;
+    height:20em;
+    margin-bottom: 10%;
+}
+label {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 150%
+  }
+  input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  textarea {
+    vertical-align: top;
+    height: 15em;
+  }
+  #buttonform{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  #buttonform1{
+    font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 120%;
+    color: white;
+    background-color: #226ce0;
+    border:none;
+    cursor: pointer;
+  }
+#F1{
+    font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-size: 175%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

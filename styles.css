@@ -19,6 +19,7 @@
 }  
   body{
       background-color: #f1faee;
+      min-height: 100%;
   }
   footer{
       background-color: #1d3557;
@@ -77,17 +78,14 @@
       top:-30em;
       left:24%;
       height:0;
+      width: 67.5%;
   }
   #ToTop {
-      position: fixed; 
-      bottom: 3%; 
-      right: 2%; 
-      z-index: 99; 
       border: 1px solid black;
       outline: none; 
       background-color:#f1faee;
       cursor: pointer;
-      padding: 0.7%;
+      padding: 5%;
       border-radius: 10px; 
     }
     #ToTop:hover {
@@ -101,7 +99,7 @@
       border: 1px solid black;
       border-radius: 1em;
       position: relative;
-      top: -5em;
+      top: -4em;
       left:-18%;
       height:20em;
       background-color: #e63946;
@@ -113,7 +111,6 @@
       width: 100px;
       text-align: left;
     }
-    
     input, textarea {
       font-size: 1em;
       font-family: "Verdana", sans serif;
@@ -122,11 +119,9 @@
       border: 1px solid #999;
       border-radius: 10px;
     }
-    
     input:focus, textarea:focus {
       border-color: #000;
     }
-    
     textarea {
       vertical-align: top;
       height: 10em;
@@ -134,7 +129,6 @@
     #buttonform{
       font-family: "Verdana",sans serif;
       border-radius: 10px;
-
     }
     #F1{
       font-size: 1.2em;
@@ -148,40 +142,40 @@
       font-family: "Verdana", sans serif;
     }
     #style1{
-      position: fixed; 
-      bottom: 3%; 
-      right: 15%; 
-      z-index: 99; 
       border: 1px solid black; 
       outline: none; 
       background-color:#f1faee;
       cursor: pointer;
-      padding: 0.7%;
+      padding: 2%;
       border-radius: 10px; 
-      font-family:"Verdana",sans serif;
+      font-family: "Verdana", sans serif;
     }
-    #style1:hover {
+  #style1:hover {
       -webkit-filter: invert(100%);
       filter: invert(100%);
     }
-    #style2{
-      position: fixed; 
-      bottom: 3%; 
-      right: 8%; 
-      z-index: 99; 
+  #style2{
       border:1px solid black; 
       outline: none; 
       background-color:#f1faee;
       cursor: pointer;
-      padding: 0.7%;
+      padding: 2%;
       border-radius: 10px; 
       font-family: "Verdana", sans serif;
     }
-    #style2:hover {
+  #style2:hover {
       -webkit-filter: invert(100%);
       filter: invert(100%);
     }
+  .button{
+    width: 15vw;
+    position: fixed;
+    bottom:3%;
+    right: 3%;
+    display: flex;
+    justify-content: space-around;
   }
+}
 /*Petit Ecran*/
 @media (max-width:1350px){
   header{
@@ -263,21 +257,12 @@
       text-decoration:underline;
     }
   #ToTop {
-      position: fixed; 
-      bottom: 3%; 
-      right: 2%; 
-      z-index: 99; 
       border: none; 
       outline: none; 
       background-color:#f1faee;
       cursor: pointer;
-      padding: 0.7%;
+      padding: 3%;
       border-radius: 10px; 
-    }
-      
-  #ToTop:hover {
-      -webkit-filter: invert(100%);
-      filter: invert(100%);
     }
   #ToTop:hover {
       -webkit-filter: invert(100%);
@@ -287,10 +272,8 @@
       margin: 0 auto;
       width: 20%;
       padding: 3%;
-      padding-top: 3%;
       border: 1px solid black;
       border-radius: 1em;
-      position: relative;
       height:20em;
       background-color: #e63946;
       font-size: 1.2em;
@@ -306,6 +289,7 @@
       width: 100%;
       box-sizing: border-box;
       border: 1px solid #999;
+      border-radius: 10px;
     }    
   input:focus, textarea:focus {
     border-color: #000;
@@ -313,7 +297,11 @@
   textarea {
       vertical-align: top;
       height: 10em;
-    }      
+    }
+  #buttonform{
+    font-family: "Verdana",sans serif;
+    border-radius: 10px;
+    }        
   #F1{
       font-size: 1.2em;
       font-family: "Verdana", sans serif;
@@ -325,15 +313,11 @@
       font-family: "Verdana", sans serif;
     }
   #style1{
-      position: fixed; 
-      bottom: 3%; 
-      right: 18%; 
-      z-index: 99; 
       border: 1px solid black; 
       outline: none; 
       background-color:#f1faee;
       cursor: pointer;
-      padding: 0.7%;
+      padding: 3%;
       border-radius: 10px; 
       font-family: "Verdana", sans serif;
     }
@@ -342,15 +326,11 @@
       filter: invert(100%);
     }
   #style2{
-      position: fixed; 
-      bottom: 3%; 
-      right: 8%; 
-      z-index: 99; 
       border:1px solid black; 
       outline: none; 
       background-color:#f1faee;
       cursor: pointer;
-      padding: 0.7%;
+      padding: 3%;
       border-radius: 10px; 
       font-family: "Verdana", sans serif;
     }
@@ -358,4 +338,12 @@
       -webkit-filter: invert(100%);
       filter: invert(100%);
     }
+  .button{
+    width: 15vw;
+    position: fixed;
+    bottom:3%;
+    right: 3%;
+    display: flex;
+    justify-content: space-around;
   }
+}

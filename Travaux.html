@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Travaux</title>
-    <link rel="stylesheet" type="text/css" title="style1" href="styles.css">
-    <link rel="second stylesheet" type="text/css" title="style2" href="style2.css">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="styles.css">
     <script type="text/javascript" src="script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
@@ -15,28 +14,33 @@
     <meta name="Description" content="Page d'accueil du Projet de Loncaric Léon.">
 </head>
 <body>
-    <header>
-        <h1 class="NomPrénom">Loncaric Léon</h1>
-    </header>
-    <nav>
-        <div class="Menu">
-            <a class="LienMenu" href="index.html" title="Page de Présentation">Présentation</a>
-            <a class="LienMenu" href="Travaux.html" title="Page de Travaux">Travaux</a>
-            <a class="LienMenu" href="Avis.html" title="Page où donner son avis">Avis</a>
-        </div>
-    </nav>
-    <section>
-        <h1 class="Titre">Cv</h1>
-        <p class="Par">Version Française <a class="Link" href="media/download/CV_Loncaric_LéonFR.docx" title="Télecharger la version française" download>Ici</a></p>
-        <p class="Par">English Version <a class="Link" href="" title="Download the english version" download>Here</a></p>
-        <h1 class="Titre">Travaux</h1>
-        <p class="Par">2020: Projet Conception de documents et d'interfaces numériques, conception d'un site Internet. <a class="Link" href="https://loleon.github.io/" title="Lien vers le site">Ici</a></p>
-        <p class="Par">2020: Conception d'un site internet, Présentation de patisserie à la vente <a class="Link" href="" title="Pas encore disponible" target="_blank">(En cours)</a></p>
-    </section>    
-    <footer>
-        <h3 id="f2">Site crée par Loncaric Léon</h3>
-    </footer>
-    <button type="button" onclick="switch_style('style1'); return false;" name="theme" value="Style 1" id="style1">Style 1</button>
-    <button type="button" onclick="switch_style('style2'); return false;" name="theme" value="Style 2" id="style2">Style 2</button>
-    <button onclick="topFunction()" id="ToTop" title="Go to top"><img src="media/navigate-up-arrows.png" alt="Top"></button>
+    <div class="Flex">
+        <header>
+            <h1 class="NomPrénom">Loncaric Léon</h1>
+        </header>
+        <nav>
+            <div class="Menu">
+                <a class="LienMenu" href="index.html" title="Page de Présentation">Présentation</a>
+                <a class="LienMenu" href="Travaux.html" title="Page de Travaux">Travaux</a>
+                <a class="LienMenu" href="Avis.html" title="Page où donner son avis">Avis</a>
+            </div>
+        </nav>
+        <section>
+            <h1 class="Titre">Cv</h1>
+            <p class="Par">Version Française <a class="Link" href="media/download/CV_Loncaric_LéonFR.docx" title="Télecharger la version française" download>Ici</a></p>
+            <p class="Par">English Version <a class="Link" href="" title="Download the english version" download>Here</a></p>
+            <h1 class="Titre">Travaux</h1>
+            <p class="Par">2020: Projet Conception de documents et d'interfaces numériques, conception d'un site Internet. <a class="Link" href="https://loleon.github.io/" title="Lien vers le site">Ici</a></p>
+            <p class="Par">2020: Conception d'un site internet, Présentation de patisserie à la vente <a class="Link" href="" title="Pas encore disponible" target="_blank">(En cours)</a></p>
+        </section>    
+        <footer>
+            <h3 id="f2">Site crée par Loncaric Léon</h3>
+        </footer>
+    </div>
+    <div class="button">
+        <button id="style1" onclick="swapCSS('styles.css')">Style 1</button>
+        <button id="style2"  onclick="swapCSS('style2.css')">Style 2</button>
+        <button id="ToTop"  onclick="topFunction()" title="Remonter en haut"><img src="media/navigate-up-arrows.png" alt="Top"></button> 
+    </div>
 </body>
+</html>
