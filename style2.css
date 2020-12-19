@@ -16,8 +16,8 @@ section{
     margin-bottom: 3%;
 }
 footer{
-    position: relative;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: #F96E46;
     margin-top: 5%;
@@ -154,7 +154,7 @@ label {
     font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
     font-size: 120%;
     color: white;
-    background-color: #226ce0;
+    background-color: #226ce0; 
     border:none;
     cursor: pointer;
   }
