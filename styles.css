@@ -26,9 +26,11 @@
   .container{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
   }
   footer{
+      position: absolute;
+      bottom: -400px;
       background-color: #1d3557;
       height: 7%;
       width: 99%;
@@ -88,6 +90,7 @@
       width: 67.5%;
       margin-top: 5%;
       margin-bottom: 5%;
+      height: 100%;
   }
   #ToTop {
       border: 1px solid black;
@@ -210,6 +213,7 @@
       flex-direction: column;
     }
     footer{
+      
       left: 0.5%;
       background-color: #1d3557;
       height: 6%;
