@@ -20,7 +20,6 @@ function topFunction() {
 function changeCSS (sheet) {
   document.getElementById('pagestyle').setAttribute('href', sheet);
 }
-//Bouton changer css
 function swapCSS(sheet){
   document.getElementById('pagestyle').setAttribute('href', sheet);
 }
