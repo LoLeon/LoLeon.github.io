@@ -17,13 +17,12 @@
         margin-bottom: 3%;
     }
     footer{
-        position: absolute;
-        bottom: 0;
         width: 100%;
         background-color: #F96E46;
         margin-top: 5%;
     }
     #portrait{
+        margin-top: 5%;
         display: flex;
         justify-content: center;
     }
@@ -197,6 +196,11 @@
         width: 100%;
         background-color: #F96E46;
         margin-top: 5%;
+    }
+    #portrait{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
     }
     .NomPrénom{
         font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
