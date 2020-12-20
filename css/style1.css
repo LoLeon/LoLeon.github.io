@@ -29,14 +29,9 @@
     min-height: 100%;
   }
   footer{
-
-      background-color: #1d3557;
-      height: 7%;
-      width: 99%;
-      border: 1px black;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
+      position: relative;
+      bottom: -20vh;
+      width: 100%;
       display: flex;
       justify-content: center;
   }
@@ -89,7 +84,7 @@
       width: 67.5%;
       margin-top: 5%;
       margin-bottom: 5%;
-      height: 100%;
+      height: 0%;
   }
   #ToTop {
       border: 1px solid black;
@@ -146,7 +141,7 @@
       margin-bottom: 5%;
     }
   #f2{
-      color:#f1faee;
+      color:black;
       font-family: "Verdana", sans serif;
     }
   #style1{
@@ -197,7 +192,8 @@
     }
   .NomPrénom{
       color:#f1faee;
-      margin-top: 15%; 
+      margin-top: 10%; 
+      margin-bottom: auto;
       display:flex;
       justify-content: center;
       font-size: 300%;
@@ -212,15 +208,9 @@
       flex-direction: column;
     }
   footer{
-
-      left: 0.5%;
-      background-color: #1d3557;
-      height: 6%;
-      width: 99%;
-      border: 1px black;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      border-radius: 10px ;
+      position: relative;
+      bottom: -20vh;
+      width: 100%;
       display: flex;
       justify-content: center;
     }
@@ -322,7 +312,7 @@
       left:13%;
     }
   #f2{
-      color:#f1faee;
+      color:black;
       font-family: "Verdana", sans serif;
     }
   #style1{
