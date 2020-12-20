@@ -82,7 +82,7 @@
       font-family: "Verdana", sans serif;
   }
   .Link:hover{
-    text-decoration: underline;
+      text-decoration: underline;
   }
   section{
       position: relative;
@@ -100,11 +100,11 @@
       padding: 5%;
       border-radius: 10px; 
     }
-    #ToTop:hover {
+  #ToTop:hover {
       -webkit-filter: invert(100%);
       filter: invert(100%);
     }
-    form {
+  form {
       margin: 0 auto;
       width: 20%;
       padding: 3%;
@@ -115,12 +115,12 @@
       font-size: 120%;
       font-family: "Verdana", sans serif;
     }
-    label {
+  label {
       display: inline-block;
       width: 100px;
       text-align: left;
     }
-    input, textarea {
+  input, textarea {
       font-size: 1em;
       font-family: "Verdana", sans serif;
       width: 100%;
@@ -128,29 +128,29 @@
       border: 1px solid #999;
       border-radius: 10px;
     }
-    input:focus, textarea:focus {
+  input:focus, textarea:focus {
       border-color: #000;
     }
-    textarea {
+  textarea {
       vertical-align: top;
       height: 10em;
     }
-    #buttonform{
+  #buttonform{
       font-family: "Verdana",sans serif;
       border-radius: 10px;
     }
-    #F1{
+  #F1{
       font-size: 120%;
       font-family: "Verdana", sans serif;
       margin-left: 20%;
       margin-top: 5%;
       margin-bottom: 5%;
     }
-    #f2{
+  #f2{
       color:#f1faee;
       font-family: "Verdana", sans serif;
     }
-    #style1{
+  #style1{
       border: 1px solid black; 
       outline: none; 
       background-color:#f1faee;
@@ -183,7 +183,7 @@
     right: 3%;
     display: flex;
     justify-content: space-around;
-  }
+    }
 }
 /*Petit Ecran*/
 @media (max-width:1000px){
@@ -208,11 +208,11 @@
       background-color: #f1faee;
       min-height: 100%;
     }
-    .container{
+  .container{
       display: flex;
       flex-direction: column;
     }
-    footer{
+  footer{
       position: absolute;
       bottom: -300px;
       left: 0.5%;
@@ -225,7 +225,7 @@
       border-radius: 10px ;
       display: flex;
       justify-content: center;
-  }
+    }
   .Menu{
       display: flex;
       justify-content:space-around;
