@@ -26,11 +26,9 @@
   .container{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
   }
   footer{
-      position: absolute;
-      top: auto;
-      bottom: 0%;
       background-color: #1d3557;
       height: 7%;
       width: 99%;
@@ -42,6 +40,7 @@
       justify-content: center;
   }
   .Menu{
+      position: fixed;
       display: flex;
       flex-direction: column;
       justify-content:space-around;
@@ -85,10 +84,10 @@
   }
   section{
       position: relative;
-      top:-40em;
       left:24%;
-      height: 0;
       width: 67.5%;
+      margin-top: 5%;
+      margin-bottom: 5%;
   }
   #ToTop {
       border: 1px solid black;
