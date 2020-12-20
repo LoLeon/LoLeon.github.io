@@ -13,7 +13,12 @@
     color:#f1faee;
     font-size: 200%;
     font-family: "Verdana",sans serif;
-}  
+}
+  #portrait1{
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
   body{
       background-color: #f1faee;
       min-height: 100%;
@@ -24,7 +29,8 @@
   }
   footer{
       position: absolute;
-      bottom: 0;
+      top: auto;
+      bottom: 0%;
       background-color: #1d3557;
       height: 7%;
       width: 99%;
