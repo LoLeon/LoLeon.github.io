@@ -23,6 +23,10 @@
         background-color: #F96E46;
         margin-top: 5%;
     }
+    #portrait{
+        display: flex;
+        justify-content: center;
+    }
     .NomPrénom{
         font-family: Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
         color: white;
