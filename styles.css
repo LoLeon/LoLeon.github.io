@@ -1,4 +1,4 @@
-@media (min-width:800px){
+@media (min-width:1000px){
   header{
       background-color:#1d3557 ;
       width: 100%;
@@ -178,7 +178,7 @@
   }
 }
 /*Petit Ecran*/
-@media (max-width:800px){
+@media (max-width:1000px){
   header{
       background-color:#1d3557 ;
       width: 100%;
