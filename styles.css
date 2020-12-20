@@ -209,8 +209,6 @@
       flex-direction: column;
     }
     footer{
-      position: absolute;
-      bottom: 0;
       left: 0.5%;
       background-color: #1d3557;
       height: 6%;
